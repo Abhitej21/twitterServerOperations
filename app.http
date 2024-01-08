@@ -1,0 +1,34 @@
+
+
+POST http://localhost:3000/register 
+Content-Type: application/json
+
+{
+    "username": "Abhi",
+    "password": "Abhi123",
+    "name": "abhiteja",
+    "gender": "male"
+}
+
+### 
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "Abhi",
+    "password": "Abhi123"
+}
+
+
+###
+GET http://localhost:3000/user/tweets/feed/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo3LCJuYW1lIjoiYWJoaXRlamEiLCJ1c2VybmFtZSI6IkFiaGkiLCJwYXNzd29yZCI6IiQyYiQxMCQ3TDBlQVFGU2Q0ZVJEYkFhTEtSSXMudWEuV1dUZzZva2dHWG5FWS5raXhIY0l4TUdSbUxYTyIsImdlbmRlciI6Im1hbGUiLCJpYXQiOjE3MDQ2OTI4MzB9.sbX9DcsccZyqT3MWpvlvxvRALekIiGL-7Rbf6fq9te4
+
+
+###
+DELETE http://localhost:3000/tweets/3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo3LCJuYW1lIjoiYWJoaXRlamEiLCJ1c2VybmFtZSI6IkFiaGkiLCJwYXNzd29yZCI6IiQyYiQxMCQ3TDBlQVFGU2Q0ZVJEYkFhTEtSSXMudWEuV1dUZzZva2dHWG5FWS5raXhIY0l4TUdSbUxYTyIsImdlbmRlciI6Im1hbGUiLCJpYXQiOjE3MDQ2OTcxNzN9.b3vHuModry4eGVfbbHLZ6kEfALsBsViAP3y9JUGA4-s
+
+###
+GET http://localhost:3000/tweets/3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo3LCJuYW1lIjoiYWJoaXRlamEiLCJ1c2VybmFtZSI6IkFiaGkiLCJwYXNzd29yZCI6IiQyYiQxMCQ3TDBlQVFGU2Q0ZVJEYkFhTEtSSXMudWEuV1dUZzZva2dHWG5FWS5raXhIY0l4TUdSbUxYTyIsImdlbmRlciI6Im1hbGUiLCJpYXQiOjE3MDQ2OTc4NTd9.SGt4KJ9sVT9nZmCOXAr5Xb42kIHVFA_UIr0e-trkKr8
